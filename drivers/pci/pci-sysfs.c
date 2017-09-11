@@ -529,7 +529,6 @@ static ssize_t driver_override_store(struct device *dev,
 
 	device_lock(dev);
 	old = pdev->driver_override;
-
 	if (strlen(driver_override)) {
 		pdev->driver_override = driver_override;
 	} else {
