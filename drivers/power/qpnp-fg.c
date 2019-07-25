@@ -3024,7 +3024,6 @@ resched:
 	queue_delayed_work(system_power_efficient_wq,
 		&chip->update_temp_work,
 		msecs_to_jiffies(TEMP_PERIOD_UPDATE_MS));
-#endif
 }
 
 static void update_jeita_setting(struct work_struct *work)
