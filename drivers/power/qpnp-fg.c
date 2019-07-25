@@ -3029,7 +3029,6 @@ resched:
 	schedule_delayed_work(
 		&chip->update_temp_work,
 		msecs_to_jiffies(TEMP_PERIOD_UPDATE_MS));
-#endif
 }
 
 static void update_jeita_setting(struct work_struct *work)
