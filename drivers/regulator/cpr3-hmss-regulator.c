@@ -364,20 +364,20 @@ enum msm8996_cpr_partial_binning {
 
 /* Open loop voltage fuse reference voltages in microvolts for MSM8996 v1/v2 */
 static const int msm8996_v1_v2_hmss_fuse_ref_volt[MSM8996_HMSS_FUSE_CORNERS] = {
-	595000,
-	725000, /* Place holder entry for LowSVS */
-	725000,
-	875000,
-	1015000,
+	575000,
+	705000, /* Place holder entry for LowSVS */
+	705000,
+	855000,
+	1020000,
 };
 
 /* Open loop voltage fuse reference voltages in microvolts for MSM8996 v3 */
 static const int msm8996_v3_hmss_fuse_ref_volt[MSM8996_HMSS_FUSE_CORNERS] = {
-	595000,
-	725000, /* Place holder entry for LowSVS */
-	725000,
-	875000,
-	1060000,
+	575000,
+	705000, /* Place holder entry for LowSVS */
+	705000,
+	855000,
+	1020000,
 };
 
 /*
@@ -386,11 +386,11 @@ static const int msm8996_v3_hmss_fuse_ref_volt[MSM8996_HMSS_FUSE_CORNERS] = {
  */
 static const int msm8996_v3_speed_bin1_rev5_hmss_fuse_ref_volt[
 						MSM8996_HMSS_FUSE_CORNERS] = {
-	595000,
-	725000, /* Place holder entry for LowSVS */
-	725000,
-	875000,
-	1040000,
+	575000,
+	705000, /* Place holder entry for LowSVS */
+	705000,
+	855000,
+	1020000,
 };
 
 /* Defines mapping from retention fuse values to voltages in microvolts */
