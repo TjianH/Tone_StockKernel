@@ -19,7 +19,7 @@
 
 &mdss_mdp {
 	dsi_jdi_synaptics_cmd_6: somc,jdi_synaptics_cmd_6_panel {
-		qcom,mdss-dsi-panel-name = "6";
+		qcom,mdss-dsi-panel-name = "jdi_synaptics_cmd_6_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
@@ -394,7 +394,7 @@
 	};
 
 	dsi_jdi_synaptics_cmd_7: somc,jdi_synaptics_cmd_7_panel {
-		qcom,mdss-dsi-panel-name = "7";
+		qcom,mdss-dsi-panel-name = "jdi_synaptics_cmd_7_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
@@ -767,7 +767,7 @@
 	};
 
 	dsi_sharp_synaptics_cmd_3: somc,sharp_synaptics_cmd_3_panel {
-		qcom,mdss-dsi-panel-name = "3";
+		qcom,mdss-dsi-panel-name = "sharp_synaptics_cmd_3_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
@@ -1127,7 +1127,7 @@
 	};
 
 	dsi_sharp_synaptics_cmd_9: somc,sharp_synaptics_cmd_9_panel {
-		qcom,mdss-dsi-panel-name = "9";
+		qcom,mdss-dsi-panel-name = "sharp_synaptics_cmd_9_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
@@ -1495,7 +1495,7 @@
 	};
 
 	dsi_lgd_synaptics_cmd_8: somc,lgd_synaptics_cmd_8_panel {
-		qcom,mdss-dsi-panel-name = "8";
+		qcom,mdss-dsi-panel-name = "lgd_synaptics_cmd_8_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
@@ -1853,7 +1853,7 @@
 	};
 
 	dsi_auo_synaptics_cmd_4: somc,auo_synaptics_cmd_4_panel {
-		qcom,mdss-dsi-panel-name = "4";
+		qcom,mdss-dsi-panel-name = "auo_synaptics_cmd_4_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
@@ -2215,7 +2215,7 @@
 	};
 
 	dsi_ivy_lgd_novatek_cmd_2: somc,ivy_lgd_novatek_cmd_2_panel {
-		qcom,mdss-dsi-panel-name = "2";
+		qcom,mdss-dsi-panel-name = "ivy_lgd_novatek_cmd_2_panel";
 		qcom,mdss-dsi-panel-type = "dsi_cmd_mode";
 		qcom,mdss-dsi-panel-framerate = <60>;
 		qcom,mdss-dsi-virtual-channel-id = <0>;
